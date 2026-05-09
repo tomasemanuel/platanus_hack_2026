@@ -1,0 +1,11 @@
+{
+  "name": "Pampa Blaster",
+  "author": "tomasemanuel",
+  "description": "Shooter vertical arcade. Defendé la pampa de las hordas invasoras a punta de disparos.",
+  "players": 1,
+  "controls": {
+    "P1_LEFT": "Mover izquierda",
+    "P1_RIGHT": "Mover derecha",
+    "P1_1": "Disparar"
+  }
+}

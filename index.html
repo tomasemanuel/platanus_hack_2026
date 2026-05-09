@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pampa Blaster</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Courier New', monospace;
+      overflow: hidden;
+    }
+    #game {
+      box-shadow: 0 0 60px rgba(102, 204, 255, 0.4);
+      image-rendering: pixelated;
+    }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.87.0/dist/phaser.min.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "pampa-blaster",
+  "version": "1.0.0",
+  "description": "Shooter vertical arcade hecho con Phaser 3.",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": ["phaser", "arcade", "game", "shooter"],
+  "license": "MIT"
+}
